@@ -6,4 +6,4 @@ Laravel Auditing Activity provides an amazing dashboard to follow your audit act
 
 ## License
 
-Laravel Horizon is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Laravel Auditing Activity is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
