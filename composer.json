@@ -1,0 +1,53 @@
+{
+    "name": "owen-it/laravel-auditing-activity",
+    "description": "Dashboard for laravel-auditing activities",
+    "keywords": [
+        "laravel",
+        "auditing",
+        "activities"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antério Vieira",
+            "email": "anteriovieira@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "orchestra/database": "~3.5",
+        "orchestra/testbench": "~3.5",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OwenIt\\Activity\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OwenIt\\Activity\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "OwenIt\\Activity\\ActivityServiceProvider"
+            ],
+            "aliases": {
+                "Activity": "OwenIt\\Activity\\Activity"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
